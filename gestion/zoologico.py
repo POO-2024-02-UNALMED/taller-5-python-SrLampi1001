@@ -15,7 +15,7 @@ class Zoologico:
         if self.__zonas == None:
             self.__zonas=[]
         self.__zonas.append(zona)
-    def getZonas(self):
+    def getZona(self):
         return self.__zonas
     def cantidadTotalAnimales(self):
         cnt = 0
